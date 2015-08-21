@@ -6,6 +6,7 @@ fake_people <- function(num_results = 20,
                         nat = 'US' {
   # Function will still need some error checking
   # e.g. a country that's not valid should be removed
+  
   url <- "http://api.randomuser.me/"
   args <- list(gender = gender_wanted,
                results = num_results,
